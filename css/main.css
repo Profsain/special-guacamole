@@ -566,7 +566,7 @@ ul.nav > li > a.active {
   color: #fff;
 }
 .hero_mockup {
-  background: url(../img/mockup-1.png);
+  /* background: url(../img/mockup-1.png); */
   background-repeat: no-repeat;
   background-position: 80% center;
   position: absolute;
@@ -684,13 +684,14 @@ ul.nav > li > a.active {
   height: 100%;
 }
 .iphone_moc {
-  background: url(../img/mockup-2.png) no-repeat scroll center center;
+  background: url(../img/screen.png) no-repeat scroll center center;
   width: 400px;
   height: 100%;
   position: absolute;
   top: 0;
   left: calc(50% - 200px);
   z-index: -1;
+ 
 }
 
 /* ==========================================================================
@@ -1008,4 +1009,13 @@ ul.nav > li > a.active {
 #scroll-to-top:hover {
   background-color: #282828;
   color: #fff;
+}
+
+.home_img {
+  position: relative;
+  left: 52.8rem;
+  top: 7.4rem;
+  /* width: 175px; */
+  height: 380px;
+  border-radius: 10px;
 }
