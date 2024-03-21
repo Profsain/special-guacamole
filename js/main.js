@@ -153,3 +153,8 @@
     };
 
 })(jQuery);
+
+// get  current year
+const copyYear = document.getElementById('copyYear');
+const currentYear = new Date().getFullYear();
+copyYear.textContent = currentYear;

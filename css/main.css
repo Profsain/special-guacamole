@@ -272,7 +272,7 @@ button {
 
 /*Background Gradiant*/
 .gradiant {
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right, #FCBBA5, #F9784B);
 }
 
 /* Preloader Styles */
@@ -281,7 +281,7 @@ button {
   top: 0;
   left: 0;
   z-index: 9999;
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right, #FCBBA5, #F9784B);
   height: 100%;
   width: 100%;
   -webkit-transition: all 0.5s 0.5s ease;
@@ -361,7 +361,7 @@ body.loaded #preloader {
   margin-bottom: 15px;
 }
 .button_1 {
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right,#FCBBA5, #F9784B);
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
@@ -404,7 +404,7 @@ button {
 }
 
 .navbar-fixed-top.header_section {
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right, #FCBBA5, #F9784B);
   box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.05);
   height: 70px;
   border-bottom: 0;
@@ -717,12 +717,12 @@ ul.nav > li > a.active {
 .screen_wrap .swiper-pagination-bullets .swiper-pagination-bullet {
   width: 8px;
   height: 8px;
-  background-color: #fd5656;
+  background-color:  #F9784B;
   opacity: 1;
   transition: all 0.2s ease-in-out;
 }
 .screen_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active {
-  background-color: #fc8b56;
+  background-color: #FCBBA5;
   width: 15px;
   border-radius: 30px;
   transition: all 0.2s ease-in-out;
@@ -794,7 +794,7 @@ ul.nav > li > a.active {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  color: #fd5656;
+  color: #F9784B,;
   font-size: 18px;
   position: absolute;
   left: -20px;
@@ -847,11 +847,11 @@ ul.nav > li > a.active {
   font-weight: 700;
 }
 .blog_bottom h3:hover {
-  color: #fc8b56;
+  color: #FCBBA5;
   text-decoration: underline;
 }
 .blog_bottom .read_more {
-  color: #fc8b56;
+  color: #FCBBA5;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -924,7 +924,7 @@ ul.nav > li > a.active {
   width: 100%;
   outline: none;
   border: none;
-  border: 1px solid #fc8b56;
+  border: 1px solid #FCBBA5;
   border-radius: 0;
   padding-right: 130px;
 }
@@ -940,7 +940,7 @@ ul.nav > li > a.active {
   display: none;
   margin-top: 15px;
   padding: 10px;
-  border: 1px solid #f77030;
+  border: 1px solid #F9784B;
 }
 #subscribe-result.subs-result {
   display: block;
@@ -958,7 +958,7 @@ ul.nav > li > a.active {
   margin: 0 5px;
 }
 .social_link li a {
-  background-color: #fc8b56;
+  background-color: #F9784B;
   display: inline-block;
   font-size: 14px;
   color: #fff;
@@ -975,7 +975,7 @@ ul.nav > li > a.active {
    Footer Section
    ========================================================================== */
 .footer_section {
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right,  #FCBBA5, #F9784B);
   display: block;
   color: #fff;
   text-align: center;
@@ -991,7 +991,7 @@ ul.nav > li > a.active {
    Scroll To Top
    ========================================================================== */
 #scroll-to-top {
-  background: linear-gradient(to right, #fc8b56, #fd5656);
+  background: linear-gradient(to right,  #FCBBA5, #F9784B);
   display: none;
   width: 45px;
   height: 45px;
