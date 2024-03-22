@@ -94,6 +94,9 @@
 	.iphone_moc{
         display: none;
     }
+    .feature_content li:after {
+        display: none;
+    }
     .download_section:after{
         bottom: -100px;
     }
