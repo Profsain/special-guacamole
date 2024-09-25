@@ -76,7 +76,8 @@
                     <div class="hero_content">
                         <h1>Experience seamless <br> social connection with Splinx</h1>
                         <p>Experience seamless event planning, bill splitting, and communication with Splinx Planet
-                            <br>– your ultimate mobile solution for hassle-free organization and socialization.</p>
+                            <br>– your ultimate mobile solution for hassle-free organization and socialization.
+                        </p>
                         <div class="download_btn">
                             <a href="#"><img src="img/apple.png" alt=""></a>
                             <a href="#"><img src="img/android.png" alt=""></a>
@@ -332,34 +333,36 @@
 
     <!-- Leads Generation Popup Modal -->
     <div id="leadsModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <img src="img/splinxlog.png" alt="Splinx Planet Logo" class="modal-logo">
-                <h2>Join the Splinx Planet Event App Waiting List!</h2>
-            </div>
-            <div class="modal-body">
-                <p>Be among the first to experience seamless event planning and bill splitting with Splinx Planet.</p>
-                <form id="leadsForm" method="POST" action="https://crm.zoho.com/crm/WebToLeadForm">
-                    <input type="hidden" name="xnQsjsdp" value="someZohoToken">
-                    <input type="hidden" name="zc_gad" id="zc_gad" value="">
-                    <input type="hidden" name="xmIwtLD" value="ZohoID">
-                    <input type="hidden" name="actionType" value="TGVhZHM=">
-                    <input type="hidden" name="returnURL" value="thankyou.html">
-
-                    <div class="form-group">
-                        <input type="text" name="Last Name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" name="Phone" placeholder="Your Phone" required>
-                    </div>
-                    <button type="submit" class="modal-btn">Join the Waiting List</button>
-                </form>
-            </div>
+    <div class="modal-content">
+        <div class="modal-header">
+            <img src="img/splinxlog.png" alt="Splinx Planet Logo" class="modal-logo">
+            <h2>Join the Splinx Planet Event App Waiting List!</h2>
+            <!-- Close Button -->
+            <span class="close-btn" onclick="document.getElementById('leadsModal').style.display='none'">&times;</span>
+        </div>
+        <div class="modal-body">
+            <p>Be among the first to experience seamless event planning and bill splitting with Splinx Planet.</p>
+            <form id="leadsForm" method="POST" action="https://crm.zoho.com/crm/WebToLeadForm">
+                <input type="hidden" name="xnQsjsdp" value="someZohoToken">
+                <input type="hidden" name="zc_gad" id="zc_gad" value="">
+                <input type="hidden" name="xmIwtLD" value="ZohoID">
+                <input type="hidden" name="actionType" value="TGVhZHM=">
+                <input type="hidden" name="returnURL" value="thankyou.html">
+                <div class="form-group">
+                    <input type="text" name="Last Name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="Phone" placeholder="Your Phone" required>
+                </div>
+                <button type="submit" class="modal-btn">Join the Waiting List</button>
+            </form>
         </div>
     </div>
+</div>
+
 
     <!-- jQuery Lib -->
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -398,6 +401,26 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3386325785010542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=3386325785010542&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </body>
 
 </html>
